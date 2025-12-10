@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "SM_PP_P001_PlanGridModularPods",
+  "Description": "The process automates the extraction of project data from PlanGrid, compiles it into standardized Excel reports by logging into PlanGrid, identifying active 'In Factory Pod' projects, downloading task reports, processing stamp-level details (status, start date, closure date), and outputting a pod-wise detailed report, a sheet with only the stamp closure status, a daily stamp closure report, and a day-wise stamp closure summary count, reducing manual effort and ensuring accurate, timely reporting",
+  "MainFile": "Main.xaml"
+}
