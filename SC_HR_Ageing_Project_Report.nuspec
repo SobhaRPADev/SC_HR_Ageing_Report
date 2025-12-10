@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SC_HR_Ageing_Project_Report</id>
+    <version>1.0.8</version>
+    <title>SC_HR_Ageing_Project_Report</title>
+    <authors>gopikrishna.doppani</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The process automates the extraction of project data from PlanGrid, compiles it into standardized Excel reports by logging into PlanGrid, identifying active 'In Factory Pod' projects, downloading task reports, processing stamp-level details (status, start date, closure date), and outputting a pod-wise detailed report, a sheet with only the stamp closure status, a daily stamp closure report, and a day-wise stamp closure summary count, reducing manual effort and ensuring accurate, timely reporting</description>
+    <tags>VisualBasic VB UiPathStudioProcess UiPathObjects</tags>
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="UiPath.Azure.Activities" version="[1.6.3]" />
+        <dependency id="UiPath.Database.Activities" version="[2.0.0]" />
+        <dependency id="UiPath.Excel.Activities" version="[2.24.4]" />
+        <dependency id="UiPath.Mail.Activities" version="[1.24.16]" />
+        <dependency id="UiPath.MicrosoftOffice365.Activities" version="[3.5.10]" />
+        <dependency id="UiPath.System.Activities.Runtime" version="[25.10.3]" />
+        <dependency id="UiPath.Testing.Activities" version="[24.10.4]" />
+        <dependency id="UiPath.UIAutomation.Activities.Runtime" version="[24.10.13]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
